@@ -40,11 +40,12 @@ class RecipeCard extends HTMLElement {
         border-radius: 8px;
         display: flex;
         flex-direction: column;
+		flex-wrap: wrap;
         height: 300px;
         justify-content: flex-start;
         margin: 0;
         padding: 0 16px 16px 16px;
-        width: 178px;
+        width: 180px;
         background-color: white;
       }
 
